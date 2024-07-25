@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #004d40; /* Deep teal background */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffab00; /* Warm yellow on hover */
+}
+
+.section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #004d40;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.about img {
+    width: 150px; /* Adjust profile picture size */
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 5px solid #004d40; /* Darker teal border */
+}
+
+.about div {
+    display: flex;
+    align-items: center;
+}
+
+.projects .project {
+    margin-bottom: 20px;
+}
+
+.projects .project img {
+    width: 100%;
+    max-width: 400px; /* Limit image width */
+    height: auto;
+    border-radius: 8px;
+}
+
+.projects .project h3 {
+    margin-top: 10px;
+    color: #004d40;
+    font-size: 1.5em;
+}
+
+.projects .project a {
+    color: #ffab00;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.projects .project a:hover {
+    color: #004d40;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact form {
+    display: grid;
+    gap: 15px;
+}
+
+.contact input, .contact textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact button {
+    padding: 12px;
+    border: none;
+    background-color: #004d40;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.contact button:hover {
+    background-color: #003d33; /* Darker teal on hover */
+}
+
+.footer {
+    background-color: #004d40;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
